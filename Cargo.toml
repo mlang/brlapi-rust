@@ -1,0 +1,9 @@
+[package]
+name = "brlapi"
+version = "0.1.0"
+authors = ["mlang <mlang@blind.guru>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2"
+libbrlapi-sys = { path = "./libbrlapi-sys" }
